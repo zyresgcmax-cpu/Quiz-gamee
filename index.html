@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Master</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    #quiz-box {
+      background: #34495e;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: #3498db;
+      color: white;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎯 Quiz Master</h1>
+
+  <div id="quiz-box">
+    <h2 id="question">Loading...</h2>
+
+    <button class="option" onclick="checkAnswer(this)"></button>
+    <button class="option" onclick="checkAnswer(this)"></button>
+    <button class="option" onclick="checkAnswer(this)"></button>
+    <button class="option" onclick="checkAnswer(this)"></button>
+
+    <h3 id="score">Score: 0</h3>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+<h3 id="timer">Time: 10</h3>

@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  height: 100vh;
+}
+
+.container {
+  margin-top: 60px;
+  padding: 25px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #00ffd5;
+}
+
+#question {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  margin: 12px auto;
+  padding: 12px;
+  width: 230px;
+
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* Hover */
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Click animation */
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Correct/Wrong effect */
+.correct {
+  background: green !important;
+}
+
+.wrong {
+  background: red !important;
+}
+
+#timer {
+  font-size: 16px;
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffd700;
+}
